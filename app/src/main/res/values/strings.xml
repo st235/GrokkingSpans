@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Grokking Spans</string>
+    <string name="title_activity_base_spans">BaseSpansActivity</string>
+    <string name="text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum elementum felis, et dictum diam tincidunt mollis. Aliquam lacus orci, suscipit eget tempor a, dictum ac leo. Sed dolor arcu, viverra id sapien semper, pellentesque mattis dui. In vehicula velit sit amet dui vehicula pretium. Etiam ante mi, laoreet a egestas eu, scelerisque sit amet sem. Curabitur euismod lacinia porttitor. Ut tristique risus sem. Cras laoreet eget purus eu euismod. Nullam malesuada nisl tortor, non sollicitudin massa convallis luctus. Pellentesque viverra ut felis in eleifend. Etiam accumsan pulvinar euismod. Sed ornare neque ut orci posuere, quis iaculis libero maximus. Proin ultrices, risus sed mollis tempor, risus odio pulvinar ex, sit amet consectetur arcu purus eget nisi. Nunc ac imperdiet sapien.
+        Morbi vel massa metus. Cras condimentum at nulla eu faucibus. Quisque tempor ligula ligula, a lacinia ex pellentesque at. Aliquam ullamcorper efficitur risus, ut congue metus tincidunt sit amet. Vestibulum non nulla ipsum. Proin sit amet sagittis justo. Vivamus fermentum mi eget nisi condimentum, sed aliquam nulla semper.
+    </string>
+</resources>
