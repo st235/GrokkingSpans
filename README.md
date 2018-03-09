@@ -1,4 +1,4 @@
-# GrokkingSpans
+# Grokking Spans
 
 <img src="https://raw.githubusercontent.com/st235/GrokkingSpans/master/images/sample.jpg" width="270" height="480">
 
