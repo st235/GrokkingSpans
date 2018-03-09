@@ -1,5 +1,7 @@
 # GrokkingSpans
 
+<img src="https://raw.githubusercontent.com/st235/GrokkingSpans/master/images/sample.jpg" width="270" height="480">
+
 A sample application for working with spannable.
 Explanation of usage [at that article](https://st235.github.io/2018/03/07/spans-magic-concept.html).
 
