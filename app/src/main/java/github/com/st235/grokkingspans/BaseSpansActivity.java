@@ -1,10 +1,8 @@
 package github.com.st235.grokkingspans;
 
-import android.content.res.Resources;
 import android.graphics.BlurMaskFilter;
 import android.graphics.Color;
 import android.graphics.EmbossMaskFilter;
-import android.graphics.MaskFilter;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
