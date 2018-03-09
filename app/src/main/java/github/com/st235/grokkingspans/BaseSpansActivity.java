@@ -3,6 +3,7 @@ package github.com.st235.grokkingspans;
 import android.content.res.Resources;
 import android.graphics.BlurMaskFilter;
 import android.graphics.Color;
+import android.graphics.EmbossMaskFilter;
 import android.graphics.MaskFilter;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -59,6 +60,7 @@ public class BaseSpansActivity extends AppCompatActivity {
                 .add(new AbsoluteSizeSpan(toPx(8)), 10, 35)
                 .add(new RelativeSizeSpan(2), 10, 35)
                 .add(new ScaleXSpan(2), 10, 35)
-                .add(new MaskFilterSpan(new BlurMaskFilter(toPx(4), BlurMaskFilter.Blur.NORMAL)), 10, 35);
+                .add(new MaskFilterSpan(new BlurMaskFilter(toPx(4), BlurMaskFilter.Blur.NORMAL)), 10, 35)
+                .add(new MaskFilterSpan(new EmbossMaskFilter(new float[] { 1, 1, 1 }, 0.4f, 6, 3.5f)), 10, 35);
     }
 }
