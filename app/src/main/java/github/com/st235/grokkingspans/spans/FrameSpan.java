@@ -1,4 +1,4 @@
-package github.com.st235.grokkingspans;
+package github.com.st235.grokkingspans.spans;
 
 import android.graphics.Canvas;
 import android.graphics.Color;

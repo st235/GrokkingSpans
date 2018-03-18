@@ -1,11 +1,7 @@
-package github.com.st235.grokkingspans;
+package github.com.st235.grokkingspans.activities;
 
 import android.content.Context;
-import android.content.res.Resources;
-import android.graphics.Color;
-import android.graphics.Paint;
 import android.support.annotation.NonNull;
-import android.support.annotation.Px;
 import android.support.v7.widget.RecyclerView;
 import android.text.SpannableString;
 import android.text.Spanned;

@@ -1,9 +1,8 @@
-package github.com.st235.grokkingspans;
+package github.com.st235.grokkingspans.activities;
 
 import android.content.Context;
 import android.graphics.Rect;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
 import android.view.Gravity;
@@ -11,8 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-
-import static github.com.st235.grokkingspans.Utils.toPx;
 
 /**
  * Created by alexanderdadukin on 09.03.2018.

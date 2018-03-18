@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,13 +20,17 @@
         </activity>
 
         <activity
-            android:name=".BaseSpansActivity"
+            android:name=".activities.BaseSpansActivity"
             android:label="@string/app_name"
             android:hardwareAccelerated="false" />
 
 
         <activity
-            android:name=".CustomSpansActivity"
+            android:name=".activities.CustomSpansActivity"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".activities.AnimatedSpansActivity"
             android:label="@string/app_name" />
     </application>
 

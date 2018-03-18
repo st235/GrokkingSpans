@@ -1,4 +1,4 @@
-package github.com.st235.grokkingspans;
+package github.com.st235.grokkingspans.activities;
 
 import android.graphics.BlurMaskFilter;
 import android.graphics.Color;
@@ -25,6 +25,8 @@ import android.text.style.SubscriptSpan;
 import android.text.style.SuperscriptSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.UnderlineSpan;
+
+import github.com.st235.grokkingspans.R;
 
 import static github.com.st235.grokkingspans.Utils.toPx;
 

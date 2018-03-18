@@ -1,4 +1,4 @@
-package github.com.st235.grokkingspans;
+package github.com.st235.grokkingspans.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
                 new InterfaceBuilder(this)
                         .addButton("base spans", v -> startActivity(new Intent(this, BaseSpansActivity.class)))
                         .addButton("custom spans", v -> startActivity(new Intent(this, CustomSpansActivity.class)))
+                        .addButton("animated spans", v -> startActivity(new Intent(this, AnimatedSpansActivity.class)))
                         .build()
         );
     }
