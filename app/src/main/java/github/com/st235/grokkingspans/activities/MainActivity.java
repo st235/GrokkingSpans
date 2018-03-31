@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
                         .addButton("base spans", v -> startActivity(new Intent(this, BaseSpansActivity.class)))
                         .addButton("custom spans", v -> startActivity(new Intent(this, CustomSpansActivity.class)))
                         .addButton("animated spans", v -> startActivity(new Intent(this, AnimatedSpansActivity.class)))
+                        .addButton("spans flags", v -> startActivity(new Intent(this, FlagsSpansActivity.class)))
                         .build()
         );
     }

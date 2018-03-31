@@ -5,11 +5,14 @@ import android.graphics.Rect;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+
+import static github.com.st235.grokkingspans.Utils.toPx;
 
 /**
  * Created by alexanderdadukin on 09.03.2018.
@@ -44,14 +47,19 @@ class InterfaceBuilder {
     }
 
     InterfaceBuilder addText(@NonNull CharSequence text) {
-        return addText(text, Gravity.LEFT);
+        return addText(text, 14, Gravity.LEFT);
     }
 
-    InterfaceBuilder addText(@NonNull CharSequence text,
+    InterfaceBuilder addText(@NonNull CharSequence text, int gravity) {
+        return addText(text, 14, Gravity.LEFT);
+    }
+
+    InterfaceBuilder addText(@NonNull CharSequence text, int textSize,
                              int gravity) {
         AppCompatTextView textView = new AppCompatTextView(rootContext.getContext());
         textView.setText(text);
         textView.setGravity(gravity);
+        textView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, textSize);
         rootContext.addView(textView, layout());
         return this;
     }
@@ -64,6 +72,8 @@ class InterfaceBuilder {
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT);
         params.gravity = Gravity.CENTER;
+        params.topMargin = toPx(4);
+        params.bottomMargin = toPx(4);
         return params;
     }
 }
